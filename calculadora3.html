@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora3</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+    <div class="calculadora">
+        <h1 class="linha100">Calculadora3.0</h1>
+        <p  id="resultado" class="linha100"> </p>
+        
+        <input type="button" class="botao" value="c" onclick="limpar()">
+        <input type="button" class="botao" value="<" onclick="apagar1()">
+        <input type="button" class="botao" value="/" onclick="adicionarOperador('/')">
+        <input type="button" class="botao" value="x" onclick="adicionarOperador('*')">
+        <input type="button" class="botao" value="7" onclick="adicionarOperador('7')">
+        <input type="button" class="botao" value="8" onclick="adicionarOperador('8')">
+        <input type="button" class="botao" value="9" onclick="adicionarOperador('9')">
+        <input type="button" class="botao" value="-" onclick="adicionarOperador('-')">
+        <input type="button" class="botao" value="4" onclick="adicionarOperador('4')">
+        <input type="button" class="botao" value="5" onclick="adicionarOperador('5')">
+        <input type="button" class="botao" value="6" onclick="adicionarOperador('6')">
+        <input type="button" class="botao" value="+" onclick="adicionarOperador('+')">
+        <input type="button" class="botao" value="1" onclick="adicionarOperador('1')">
+        <input type="button" class="botao" value="2" onclick="adicionarOperador('2')">
+        <input type="button" class="botao" value="3" onclick="adicionarOperador('3')">
+        <input type="button" class="botao botao-duplo-igual" value="=" onclick="Calcular('')">
+        <input type="button" class="botao botao-duplo-zero" value="0" onclick="adicionarOperador('0')">
+        <input type="button" class="botao" value="." onclick="adicionarOperador('.')">
+        
+    </div>
+      
+    <script src="script.js"></script>
+
+</body>
+</html>
